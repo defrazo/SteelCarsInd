@@ -339,3 +339,30 @@ nav ul li.active a{
 .nivo-controlNav a.active {
     font-weight:bold;
 }
+
+/********************************************
+            PRODUCT TYPES STYLES
+********************************************/
+#leftNav{
+    margin-top: 2%;
+}
+
+.leftNavItem{
+    display: block;
+    margin: 3% 0;
+
+}
+#product_types{
+    margin-top: 2%;
+}
+
+.type_img{
+    margin: 3% 3%;
+    float: left;
+}
+
+.typeTitle{
+    margin-top: 5%;
+    font-size:14px; 
+    text-align: center;
+}
