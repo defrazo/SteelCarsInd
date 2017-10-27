@@ -70,33 +70,33 @@ html{
     margin-top: 22px;
 }
 
-nav {
+#top_menu {
     display: table-cell;
 }
 
-nav ul{
+#top_menu ul{
     margin-left: 22px;
 }
 
-nav ul li{
+#top_menu ul li{
     display: inline-block;
     font-size: 14px;
     margin-top: 9px;
     margin-right: 42px;
 }
 
-nav ul li.last{
+#top_menu ul li.last{
     margin-right: 0px;
 }
 
-nav ul li a{
+#top_menu ul li a{
     color: #fff;
     text-decoration: none;
     text-shadow: -1px 1px 3px rgba(17, 17, 17, 0.75);
     }
 
-nav ul li a:hover,
-nav ul li.active a{
+#top_menu ul li a:hover,
+#top_menu ul li.active a{
     color: #64a7b7;
 }
 
@@ -346,7 +346,12 @@ nav ul li.active a{
 #leftNav{
     margin-top: 2%;
 }
-
+.bg{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin-top: -1%;
+}
 .leftNavItem{
     display: block;
     margin: 3% 0;
@@ -365,4 +370,55 @@ nav ul li.active a{
     margin-top: 5%;
     font-size:14px; 
     text-align: center;
+}
+
+/********************************************
+            LEFT MENU STYLES
+********************************************/
+#left_menu li{
+    font-size: 16px;
+    /*margin-top: 9px;
+    margin-left: 42px;*/
+}
+
+#left_menu li:before{
+    content: url('../img/list_marker.png');
+    margin-right: 2%;
+}
+
+#left_menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: -1px 1px 3px rgba(17, 17, 17, 0.75);
+    }
+
+#left_menu li a:hover,
+#left_menu li.active a{
+    color: #64a7b7;
+}
+
+#subLeft li{
+    font-size: 16px;
+    /*margin-top: 9px;*/
+    margin-left: 5%;
+}
+
+#subLeft li:before{
+    content: url('../img/subList_marker.png');
+    margin-right: 2%;
+}
+
+#subLeft li a{
+    color: #fff;
+    text-decoration: none;
+    text-shadow: -1px 1px 3px rgba(17, 17, 17, 0.75);
+    }
+
+#subLeft li a:hover,
+#subLeft li.active a{
+    color: #64a7b7;
+}
+
+.subMenu:hover{
+    font-size: 50px;
 }
