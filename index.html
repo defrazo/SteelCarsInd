@@ -6,50 +6,60 @@
 	<link rel="stylesheet" href="css/reset.css" media="all">
 	<link rel="stylesheet" href="css/grid.css" media="all">
 	<link rel="stylesheet" href="css/style.css" media="all">
-	
-	<script src="js/jquery.js"></script>
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
 </head>
 <body>
-	
-<div id="main_container" class="container_16">
-	<header>
-	<div id="logo" class="push_1 grid_8">
-		<a href="#"><img src="img/logo.png" alt="Steel Cars Industries"></a>
-		<a href="#"><img src="img/logoName.png" alt="Steel Cars Industries"></a>
-	</div>
-	<div id="contacts-block" class="push_2 grid_5">
-		<div id="contact_details_email">
-			<img src="img/email-icon.png"> company@mail.ru
+	<div id="main_container" class="container_16">
+		<header>
+			<div id="logo" class="push_1 grid_8">
+				<a href="#"><img src="img/logo.png" alt="Steel Cars Industries"></a>
+				<a href="#"><img src="img/logoName.png" alt="Steel Cars Industries"></a>
+			</div>
+			<div id="contacts-block" class="push_2 grid_5">
+				<div id="contact_details_email">
+					<img src="img/email-icon.png"> company@mail.ru
+				</div>
+				<div id="contact_details_phone">
+					<img src="img/phone-icon.png"> +7 (954) 384 69 89
+				</div>
+			</div>
+			<div id="nav_menu" class="push_1 grid_15">
+				<nav>
+					<ul>
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Продукция</a></li>
+						<li><a href="#">Услуги</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li class="last"><a href="#">Статьи</a></li>
+					</ul>
+				</nav>
+				<form id="search_box" action="" method="post" class="search">
+		 			<input id="search" type="search" name="" placeholder="    поиск по сайту..." class="input" />
+		  			<input type="submit" name="" value="" class="submit" />
+				</form>
+			</div>
+		</header>
+		<div class="slider">
+			<div id="wrapper">
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider">
+						<img src="img/image1.png" data-thumb="img/image1.png" alt="" />
+						<img src="img/image2.png" data-thumb="img/image2.png" alt="" title="This is an example of a caption" /></a>
+						<img src="img/image3.png" data-thumb="img/image3.png" alt="" data-transition="slideInLeft" />
+						<img src="img/image1.png" data-thumb="img/image4.png" alt="" title="#htmlcaption" />
+					</div>
+					<div id="htmlcaption" class="nivo-html-caption">
+						<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+					</div>
+				</div>
+			</div>
 		</div>
-		<div id="contact_details_phone">
-			<img src="img/phone-icon.png"> +7 (954) 384 69 89
-		</div>
 	</div>
-	<div id="nav_menu" class="push_1 grid_15">
-		<nav>
-			<ul>
-				<li class="active"><a href="#">Главная</a></li>
-				<li><a href="#">О компании</a></li>
-				<li><a href="#">Продукция</a></li>
-				<li><a href="#">Услуги</a></li>
-				<li><a href="#">Контакты</a></li>
-				<li class="last"><a href="#">Статьи</a></li>
-			</ul>
-			</nav>
-		<form id="search_box" action="" method="post" class="search">
- 		 <input id="search" type="search" name="" placeholder="    поиск по сайту..." class="input" />
-  		<input type="submit" name="" value="" class="submit" />
-		</form>
-		
-	</div>
-	</header>
-
-	</div>
-	
-
-
+<script src="js/jquery.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
