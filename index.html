@@ -11,15 +11,13 @@
 	<![endif]-->
 </head>
 <body>
-
 	<div id="main_container" class="container_16">
-		
 		<header>
-			<div id="logo" class="push_1 grid_8">
+			<div id="logo" class="grid_8">
 				<a href="#"><img src="img/logo.png" alt="Steel Cars Industries"></a>
 				<a href="#"><img src="img/logoName.png" alt="Steel Cars Industries"></a>
 			</div>
-			<div id="contacts-block" class="push_2 grid_5">
+			<div id="contacts-block" class="push_3 grid_5">
 				<div id="contact_details_email">
 					<img src="img/email-icon.png"> company@mail.ru
 				</div>
@@ -27,8 +25,8 @@
 					<img src="img/phone-icon.png"> +7 (954) 384 69 89
 				</div>
 			</div>
-			<div id="nav_menu" class="push_1 grid_15">
-				<nav id="top_menu">
+			<div id="nav_menu" class="grid_16">
+				<nav id="top_menu" class="grid_12">
 					<ul>
 						<li class="active"><a href="#">Главная</a></li>
 						<li><a href="#">О компании</a></li>
@@ -38,31 +36,32 @@
 						<li class="last"><a href="#">Статьи</a></li>
 					</ul>
 				</nav>
-				<form id="search_box" action="" method="post" class="search">
+				<form id="search_box" action="" method="post" class="search grid_3">
 		 			<input id="search" type="search" name="" placeholder="    поиск по сайту..." class="input" />
-		  			<input type="submit" name="" value="" class="submit" />
+		  			<!--input type="submit" name="" value="" class="submit" /-->
 				</form>
 			</div>
 		</header>
-		<div class="slider">
+		<div class="slider grid_16">
 			<div id="wrapper">
 				<div class="slider-wrapper theme-default">
 					<div id="slider" class="nivoSlider">
-						<img src="img/image1.png" data-thumb="img/image1.png" alt="" />
-						<img src="img/image2.png" data-thumb="img/image2.png" alt="" title="This is an example of a caption" /></a>
-						<img src="img/image3.png" data-thumb="img/image3.png" alt="" data-transition="slideInLeft" />
-						<img src="img/image1.png" data-thumb="img/image4.png" alt="" title="#htmlcaption" />
+						<img src="img/image1.png" data-thumb="img/image1.png" alt="" title="Car1" />
+						<img src="img/image2.png" data-thumb="img/image2.png" alt="" title="Car2" /></a>
+						<img src="img/image3.png" data-thumb="img/image3.png" alt="" data-transition="slideInLeft" title="Car3" />
+						<img src="img/image4.png" data-thumb="img/image4.png" alt="" title="Car4"/>
 					</div>
-					<div id="htmlcaption" class="nivo-html-caption">
+					<!--div id="htmlcaption" class="nivo-html-caption">
 						<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
-					</div>
+					</div-->
 				</div>
 			</div>
 		</div>
-		<div class="bg">
+		<div class="content">
+		<div class="section1">
 			<div id="leftNav" class="grid_4">
 				<h2 class="catalog">КАТАЛОГ</h2>
-					<nav >
+					<nav>
 						<ul id="left_menu">
 							<li class="leftNavItem active"><a href="#">Ford</a></li>
 							<li class="leftNavItem subMenu"><a href="#">Volkswagen</a></li>
@@ -77,22 +76,124 @@
 						</ul>
 					</nav>
 			</div>
-			<div id="product_types" class="grid_12">
-				<h2 class="catalog">ВИДЫ ПРОДУКЦИИ</h2>
-				<div class="type_img">
-					<img src="img/type1.png" data-thumb="img/type1.png" alt="" />
-					<h3 class="typeTitle">Пикап</h3>
+				<div id="product_types" class="grid_12">
+					<h2 class="catalog">ВИДЫ ПРОДУКЦИИ</h2>
+					<div class="type_img">
+						<img src="img/type1.png" data-thumb="img/type1.png" alt="" />
+						<h3 class="typeTitle">Пикап</h3>
+					</div>
+					<div class="type_img">
+						<img src="img/type2.png" data-thumb="img/type2.png" alt="" />
+						<h3 class="typeTitle">Седан</h3>
+					</div>
+					<div class="type_img">
+						<img src="img/type3.png" data-thumb="img/type3.png" alt="" />
+						<h3 class="typeTitle">Хэтчбэк</h3>
+					</div>
 				</div>
-				<div class="type_img">
-					<img src="img/type2.png" data-thumb="img/type2.png" alt="" />
-					<h3 class="typeTitle">Седан</h3>
 				</div>
-				<div class="type_img">
-					<img src="img/type3.png" data-thumb="img/type3.png" alt="" />
-					<h3 class="typeTitle">Хэтчбэк</h3>
+				<div class="push_4 grid_12" id="manufactures">
+					<h2 class="catalog">Производители</h2>
+					<div class="manufacturer_img">
+						<img src="img/manufacturer1.png" data-thumb="img/manufacturer1.png" alt="" />
+					</div>
+					<div class="manufacturer_img">
+						<img src="img/manufacturer2.png" data-thumb="img/manufacturer2.png" alt="" />
+					</div>
+					<div class="manufacturer_img">
+						<img src="img/manufacturer3.png" data-thumb="img/manufacturer3.png" alt="" />
+					</div>
+					<div class="manufacturer_img">
+						<img src="img/manufacturer4.png" data-thumb="img/manufacturer4.png" alt="" />
+					</div>
+				</div>
+			
+				<div id="text_content" class="push_4 grid_12">
+					<h2>Характеристика нашей продукции</h2>
+					<p class="article">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
+					</p>
+					<p class="article">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
+					</p>
+					<p class="article">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
+					</p>
 				</div>
 			</div>
+		<footer class="container_16">
+			<div class="grid_16">
+	<div id="about" class="alpha grid_4">
+		<h2>О нас</h2>
+		<p class="about_p">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor consectetur ducimus, veniam commodi unde quibusdam soluta reprehenderit fugit libero magnam earum ipsa mollitia facilis ad saepe ipsam, error eaque.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor consectetur ducimus, veniam commodi.
+		</p>
+		<p class="about_link"><a href="#">Читать подробнее</a></p>
+	</div>
+	<div id="last_articles" class="grid_4">
+		<h2>Последние статьи</h2>
+		<ul>
+			<li class="article_title">Какие авто сейчас в тренде?</li>
+			<p class="art_comments"><span>22.06.2017</span><span id="divider">//</span><span>6</span> <span>Комментариев</span></p>
+			<li class="article_title">Стоит ли покупать купе?</li>
+			<p class="art_comments"><span>24.08.2017</span><span id="divider">//</span><span>13</span> <span>Комментариев</span></p>
+		</ul>
+	</div>
+	<div id="contacts" class="grid_4">
+		<h2>Контакты</h2>
+		<table class="contacts_table">
+			<tr>
+				<td>Адрес</td><td class="second_col"> г. Екатеринбург, ул. Ленина, оф. 106</td>
+			</tr>
+			<tr>
+				<td></td><td><a class="adress_link" href="#">Посмотреть на карте</a></td>
+			</tr>
+			<tr>
+				<td>Телефоны</td><td class="second_col">+7 (954) 384-69-89</td>
+			</tr>
+			<tr>
+				<td></td><td class="second_col">+7 (954) 384-69-89</td>
+			</tr>
+			<tr>
+				<td>Email</td><td class="second_col email">company@mail.ru</td>
+			</tr>
+		</table>
+	</div>
+	<div id="social" class="omega grid_4">
+		<h2>Социальные сети</h2>
+		<div class="soc_icons">
+			<div class="social_icon">
+				<img src="img/social_vk.png" data-thumb="img/social_vk.png" alt="" />
+			</div>
+			<div class="social_icon">
+				<img src="img/social_ok.png" data-thumb="img/social_ok.png" alt="" />
+			</div>
+			<div class="social_icon">
+				<img src="img/social_fb.png" data-thumb="img/social_fb.png" alt="" />
+			</div>
+			<div class="social_icon">
+				<img src="img/social_twiter.png" data-thumb="img/social_.ptwiterng" alt="" />
+			</div>
+			<div class="social_icon">
+				<img src="img/social_in.png" data-thumb="img/social_in.png" alt="" />
+			</div>
+			<div class="social_icon">
+				<img src="img/social_rss.png" data-thumb="img/social_rss.png" alt="" />
+			</div>
 		</div>
+		<div class="unsubscribe">
+		<h2>Подписка</h2>
+		<input type="text" class="input_email" placeholder="Введите свой e-mail">
+		<p class="unsub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, quibusdam nisi explicabo in similique molestiae veniam.</p>
+		</div>
+	</div>
+</div>
+
+</footer>
+<div class="credits_bar">
+	<p class="credits"><span id="copyr">Copyright 2017 Steel Cars Industries. All rights reserved.</span><span id="create">Сайт создан в компании <a class="studio" href="#">McGregor Creative</a></span></p>
+</div>
 	</div>
 <script src="js/jquery.js"></script>
 <script src="js/slider.js"></script>
