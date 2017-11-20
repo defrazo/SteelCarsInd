@@ -13,42 +13,46 @@
     <![endif]-->
 </head>
 <body>
-	<div id="main_container">
+	<div class="main_container">
 		<div class="back container">
-		<header>
-			<div id="header_container" class="container">
-				<div class="row">
-					<div id="logo_block" class="col-md-6 col-md-offset-1 no-gutter">
-						<a href="#"><img src="img/logo.png" alt="Steel Cars Industries"></a>
-						<a href="#"><img src="img/logoName.png" alt="Steel Cars Industries"></a>
-					</div>
-					<div id="contacts_block" class="col-md-4 col-md-offset-1 no-gutter">
-						<div class="contact_details">
-							<img src="img/email-icon.png"> company@mail.ru
+			<header>
+				<div class="header_container container">
+					<div class="row">
+						<div class="logo_block col-xs-10 col-sm-5 col-xs-offset-1 col-md-6 col-md-offset-1 no-gutter">
+							<a href="#"><img src="img/logotype.png" class="img-responsive" alt="Steel Cars Industries"></a>
 						</div>
-						<div class="contact_details">
-							<img src="img/phone-icon.png"> +7 (954) 384 69 89
+						<div class="contacts_block hidden-xs col-sm-offset-1 col-sm-5 col-md-4 col-md-offset-1">
+							<div class="contact_details">
+								<img src="img/email-icon.png"> company@mail.ru
+							</div>
+							<div class="contact_details">
+								<img src="img/phone-icon.png"> +7 (954) 384 69 89
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="navbar-header navbar-inverse">
+							<span class="navbar-brand visible-xs" data-toggle="collapse" data-target=".top_menu">Меню</span>
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".top_menu">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="top_menu col-md-10 col-lg-10 col-lg-offset-1 col-md-offset-1 collapse navbar-collapse text-center">
+							<ul class="nav navbar-nav">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Продукция</a></li>
+								<li><a href="#">Услуги</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li class="last hidden-xs"><form id="search_box" action="" method="post" class="search "><input type="search" name="" placeholder="    поиск по сайту..." class="search input" /></form></li>
+							</ul>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<nav id="top_menu" class="col-md-10 col-md-offset-1 ">
-						<ul>
-							<li class="active"><a href="#">Главная</a></li>
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Продукция</a></li>
-							<li><a href="#">Услуги</a></li>
-							<li><a href="#">Контакты</a></li>
-							<li><a href="#">Статьи</a></li>
-							<li class="last"><form id="search_box" action="" method="post" class="search ">
-							<input id="search" type="search" name="" placeholder="    поиск по сайту..." class="input" />
-							<!--input type="submit" name="" value="" class="submit" /--></form></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
-		<div id="content_container" class="container">
+			</header>
+		<div class="content_container container">
 			<div class="row">
 				<div id="wrapper" class="col-md-10 col-md-offset-1 no-gutter">
 					<div class="slider-wrapper theme-default">
@@ -63,13 +67,13 @@
 			</div>
 			<div class="container">
 				<div class="row">
-					<div id="left_menu_block" class="col-md-2 col-md-offset-1 no-gutter">
+					<div class="left_menu_block col-sm-2 col-md-2 col-md-offset-1 hidden-xs no-gutter">
 						<h2>КАТАЛОГ</h2>
 						<nav>
-							<ul id="left_menu">
+							<ul class="left_menu">
 								<li><a href="#">Ford</a></li>
 								<li class="active"><a href="#">Volkswagen</a></li>
-									<ul id="left_menu_sub">
+									<ul class="left_menu_sub">
 										<li><a href="#">Пикап</a></li>
 										<li><a href="#">Седан</a></li>
 										<li><a href="#">Хэтчбэк</a></li>
@@ -80,7 +84,7 @@
 							</ul>
 						</nav>
 					</div>
-					<div id="product_types_block" class="col-md-9 no-gutter">
+					<div class="product_types_block col-xs-12 col-sm-10 col-md-9 no-gutter">
 						<h2>ВИДЫ ПРОДУКЦИИ</h2>
 						<div class="product_type_img">
 							<img src="img/type1.png" class="img-responsive" data-thumb="img/type1.png" alt="" />
@@ -97,7 +101,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div id="manufacturers" class="col-md-8 col-md-offset-3 no-gutter">
+					<div class="col-sm-10 col-sm-offset-2 col-md-8 col-md-offset-3 no-gutter">
 						<h2>Производители</h2>
 						<div class="manufacturer_img">
 							<img src="img/manufacturer1.png" data-thumb="img/manufacturer1.png" class="img-responsive" alt="" />
@@ -115,15 +119,15 @@
 				</div>
 				<div class="container">
 					<div class="row">
-						<div id="post_block" class="col-md-8 col-md-offset-3 no-gutter">
+						<div class="col-sm-11 col-md-8 col-md-offset-3 no-gutter">
 							<h2>Характеристика нашей продукции</h2>
-							<p class="post">
+							<p class="post text-justify">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
 							</p>
-							<p class="post">
+							<p class="post text-justify">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
 							</p>
-							<p class="post">
+							<p class="post text-justify">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil excepturi iste voluptatum optio sequi cum, delectus modi impedit quam quisquam, unde maiores quis harum libero ullam obcaecati quod repudiandae! Fuga?
 							</p>
 						</div>
@@ -132,8 +136,8 @@
 			</div>
 		</div>
 		<footer>
-			<div id="footer_container" class="container">
-				<div id="about_block" class="col-md-3">
+			<div class="footer_container container">
+				<div class="about_block col-sm-4 col-md-3 hidden-xs">
 					<h2>О нас</h2>
 					<p class="about_p">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor consectetur ducimus, veniam commodi unde quibusdam soluta reprehenderit fugit libero magnam earum ipsa mollitia facilis ad saepe ipsam, error eaque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas dolor consectetur ducimus, veniam commodi.
@@ -142,7 +146,7 @@
 						<a href="#">Читать подробнее</a>
 					</p>
 				</div>
-				<div id="last_posts_block" class="col-md-3">
+				<div class="last_posts_block col-sm-3 col-md-3 hidden-xs">
 					<h2>Последние статьи</h2>
 					<ul>
 						<li class="last_post_title">Какие авто сейчас в тренде?</li>
@@ -153,52 +157,40 @@
 						<p class="last_post_comments"><span>24.08.2017</span><span class="last_post_comments_divider">//</span><span>13</span> <span>Комментариев</span></p>
 					</ul>
 				</div>
-				<div id="detailed_contacts_block" class="col-md-3 no-gutter">
+				<div class="detailed_contacts_block col-xs-7 col-sm-3 col-md-3 no-gutter">
 					<h2>Контакты</h2>
-					<table class="detailed_contacts_table">
-						<tr>
-							<td>Адрес</td><td class="detailed_contacts_table_second_column"> г. Екатеринбург</td>
-						</tr>
-						<tr>
-							<td></td><td class="detailed_contacts_table_second_column">ул. Ленина, оф. 106</td>
-						</tr>
-						<tr>
-							<td align="right" colspan="2"><a class="detailed_contacts_adress_link" href="#">Посмотреть на карте</a></td>
-						</tr>
-						<tr>
-							<td>Телефоны</td><td class="detailed_contacts_table_second_column">+7 (954) 384-69-89</td>
-						</tr>
-						<tr>
-							<td></td><td class="detailed_contacts_table_second_column">+7 (954) 384-69-89</td>
-						</tr>
-						<tr>
-							<td>Email</td><td class="detailed_contacts_table_second_column detailed_contacts_email">company@mail.ru</td>
-						</tr>
-					</table>
+					<address>
+					  <strong>Steel Cars, Ind.</strong><br>
+					  620000, г. Екатеринбург<br>
+					  ул. Ленина, оф. 106<br>
+					  <abbr title="Телефон для связи">Директор:</abbr> +7 (954) 384-69-89<br>
+					  <abbr title="Телефон для связи">Менеджер:</abbr> +7 (954) 384-69-89<br>
+					  <strong>E-mail:</strong> <a href="mailto:#">company@mail.ru</a>
+					</address>
 				</div>
-				<div id="social_block" class="col-md-3">
+				<div class="social_block col-xs-5 col-sm-2 col-md-3">
 					<h2>Социальные сети</h2>
 					<div class="social_icons">
 						<div class="social_icon">
-							<img src="img/social_vk.png" data-thumb="img/social_vk.png" alt="" />
+							<a href="#"><img src="img/social_vk.png" data-thumb="img/social_vk.png" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="social_icon">
-							<img src="img/social_ok.png" data-thumb="img/social_ok.png" alt="" />
+							<a href="#"><img src="img/social_ok.png" data-thumb="img/social_ok.png" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="social_icon">
-							<img src="img/social_fb.png" data-thumb="img/social_fb.png" alt="" />
+							<a href="#"><img src="img/social_fb.png" data-thumb="img/social_fb.png" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="social_icon">
-							<img src="img/social_twitter.png" data-thumb="img/social_.ptwiterng" alt="" />
+							<a href="#"><img src="img/social_twitter.png" data-thumb="img/social_.ptwiterng" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="social_icon">
-							<img src="img/social_in.png" data-thumb="img/social_in.png" alt="" />
+							<a href="#"><img src="img/social_in.png" data-thumb="img/social_in.png" class="img-responsive" alt="" /></a>
 						</div>
 						<div class="social_icon">
-							<img src="img/social_rss.png" data-thumb="img/social_rss.png" alt="" />
+							<a href="#"><img src="img/social_rss.png" data-thumb="img/social_rss.png" class="img-responsive" alt="" /></a>
 						</div>
 					</div>
-					<div class="subscribe_block">
+					<div class="subscribe_block hidden-xs hidden-sm">
 						<h2>Подписка</h2>
 						<input class="subscribe_email" type="text" placeholder="Введите свой e-mail">
 						<p class="subscribe_note">
@@ -208,10 +200,10 @@
 				</div>
 			</div>
 		</footer>
-		<div id="copyright_block" class="container">
+		<div class="copyright_block container">
 			<p class="copyright">
-				<span id="copyright_rights">Copyright 2017 Steel Cars Industries. All rights reserved.</span>
-				<span id="copyright_company">Сайт создан в компании <a id="copyright_studio" href="#">McGregor Creative</a></span>
+				<span class="copyright_rights hidden-xs">Copyright 2017 Steel Cars Industries. All rights reserved.</span>
+				<span class="copyright_company">Сайт создан в компании <a class="copyright_studio" href="#">McGregor Creative</a></span>
 			</p>
 		</div>
 		</div>
